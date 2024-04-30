@@ -1,8 +1,8 @@
 # Lunar Lander with Reinforcement Learning
 
-## Soft-Actor Critic
+## Soft-Actor Critic (SAC)
 
-## DQN
+## Deep Q Learning (DQN)
 
-## PPO
+## Proximal Policy Optimization (PPO)
 
