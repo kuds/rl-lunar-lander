@@ -13,11 +13,11 @@
 ![](/Images/ppo_lunar_lander.gif)
 
 ## Results
-| Model Type | Descrete | Average Reward|
-|-----|-----|---------|
-| PPO | No  | -42.70  |
-| SAC | No  | 179.77  |
-| DQN | Yes |         |
+| Model Type | Discrete | Average Reward|
+|------------|----------|---------------|
+| PPO        | No       | -42.70        |
+| SAC        | No       | -29.78        |
+| DQN        | Yes      |               |
 
 ## Finding Theta Blog Posts: 
 - [Solving Gymnasium's Lunar Lander with Deep Q Learning (DQN)](https://www.findingtheta.com/blog/solving-gymnasiums-lunar-lander-with-deep-q-learning-dqn)
