@@ -13,11 +13,13 @@
 ![](/Images/ppo_lunar_lander.gif)
 
 ## Results
-| Model Type | Discrete | Average Reward|
-|------------|----------|---------------|
-| PPO        | No       | -42.70        |
-| SAC        | No       | -29.78        |
-| DQN        | Yes      |               |
+Hardware: Google Colab T4
+
+| Model Type | Discrete | Average Reward| Training Time | Total Training Steps |
+|------------|----------|---------------|---------------|----------------------|
+| PPO        | No       | 150.88        | 0:20:47       | 100000               |
+| SAC        | No       | -29.78        |               |                      |
+| DQN        | Yes      |               |               |                      |
 
 ## Finding Theta Blog Posts: 
 - [Solving Gymnasium's Lunar Lander with Deep Q Learning (DQN)](https://www.findingtheta.com/blog/solving-gymnasiums-lunar-lander-with-deep-q-learning-dqn)
