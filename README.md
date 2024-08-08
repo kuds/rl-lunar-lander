@@ -19,7 +19,7 @@ Hardware: Google Colab T4
 |------------|----------|---------------|---------------|----------------------|
 | PPO        | No       | 198.73        | 2:21:23       | 301,025              |
 | SAC        | No       | 257.90        | 1:36:07       | 179,285              |
-| DQN        | Yes      |               |               |                      |
+| DQN        | Yes      | -61.66        | 0:41:00       | 100,000              |
 
 ## Finding Theta Blog Posts: 
 - [Solving Gymnasium's Lunar Lander with Deep Q Learning (DQN)](https://www.findingtheta.com/blog/solving-gymnasiums-lunar-lander-with-deep-q-learning-dqn)
