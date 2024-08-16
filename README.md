@@ -24,8 +24,8 @@ Hardware: Google Colab T4
 
 ## Training Notes
 - Set `ent_coef` for PPO as it encourages exploration of other actions. Stable Baseline3 defaults the value to 0.0. [More Information](https://www.youtube.com/watch?v=1ppslywmIPs)
-- Do not set your eval_freq too low, as it can sometimes cause instability during learning due to being interrupted by evaluation. (e.g. >=10,000)
-- The DQN parameters `exploration_initial_eps` and `exploration_final_eps=final_epsilon` help with exploratory your model is at the begin and end of training.
+- Do not set your `eval_freq` too low, as it can sometimes cause instability during learning due to being interrupted by evaluation. (e.g. >=10,000)
+- Stable Baseline3's DQN parameters `exploration_initial_eps` and `exploration_final_eps` help determine how exploratory your model is at the beginning and end of training.
 
 ## Finding Theta Blog Posts: 
 - [Solving Gymnasium's Lunar Lander with Deep Q Learning (DQN)](https://www.findingtheta.com/blog/solving-gymnasiums-lunar-lander-with-deep-q-learning-dqn)
