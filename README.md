@@ -20,7 +20,7 @@ Hardware: Google Colab T4
 | PPO        | No       | 266.01        | 1:35:29       | 501,747              |
 | PPO        | Yes      | 223.38        | 2:07:30       | 501,721              |
 | SAC        | No       | 257.90        | 1:36:07       | 179,285              |
-| DQN        | Yes      | -61.66        | 0:41:00       | 100,000              |
+| DQN        | Yes      | 155.64        | 1:59:15       | 999,999              |
 
 ## Training Notes
 - Set `ent_coef` for PPO as it encourages exploration of other actions. Stable Baseline3 defaults the value to 0.0. [More Information](https://www.youtube.com/watch?v=1ppslywmIPs)
