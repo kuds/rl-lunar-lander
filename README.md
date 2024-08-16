@@ -18,7 +18,7 @@ Hardware: Google Colab T4
 | Model Type | Discrete | Average Reward| Training Time | Total Training Steps |
 |------------|----------|---------------|---------------|----------------------|
 | PPO        | No       | 266.01        | 1:35:29       | 501,747              |
-| PPO        | Yes      | 185.36        | 2:45:13       | 501,025              |
+| PPO        | Yes      | 223.38        | 2:07:30       | 501,721              |
 | SAC        | No       | 257.90        | 1:36:07       | 179,285              |
 | DQN        | Yes      | -61.66        | 0:41:00       | 100,000              |
 
