@@ -23,7 +23,7 @@ Hardware: Google Colab T4
 | DQN        | Yes      | 155.64        | 1:59:15       | 999,999              |
 
 ## Training Notes
-- Set `ent_coef` for PPO as it encourages exploration of other actions. Stable Baseline3 defaults the value to 0.0. [More Information](https://www.youtube.com/watch?v=1ppslywmIPs)
+- Set `ent_coef` for PPO as it encourages exploration of other actions. Stable Baselines3 defaults the value to 0.0. [More Information](https://www.youtube.com/watch?v=1ppslywmIPs)
 - Do not set your `eval_freq` too low, as it can sometimes cause instability during learning due to being interrupted by evaluation. (e.g. >=10,000)
 - Stable Baseline3's DQN parameters `exploration_initial_eps` and `exploration_final_eps` help determine how exploratory your model is at the beginning and end of training.
 
