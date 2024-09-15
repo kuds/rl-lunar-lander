@@ -1,5 +1,0 @@
-stable-baselines3
-swig
-gymnasium
-gymnasium[box2d]
-huggingface_sb3
