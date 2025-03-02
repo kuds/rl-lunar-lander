@@ -27,6 +27,6 @@ Hardware: Google Colab T4
 - Do not set your `eval_freq` too low, as it can sometimes cause instability during learning due to being interrupted by evaluation. (e.g. >=10,000)
 - Stable Baseline3's DQN parameters `exploration_initial_eps` and `exploration_final_eps` help determine how exploratory your model is at the beginning and end of training.
 
-## Finding Theta Blog Posts: 
+## Finding Theta Blog Posts
 - [Solving Gymnasium's Lunar Lander with Deep Q Learning (DQN)](https://www.findingtheta.com/blog/solving-gymnasiums-lunar-lander-with-deep-q-learning-dqn)
 - [Comparing how PPO, SAC, and DQN Perform on Gymnasium's Lunar Lander](https://www.findingtheta.com/blog/comparing-how-ppo-sac-and-dqn-perform-on-gymnasiums-lunar-lander)
