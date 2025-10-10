@@ -19,7 +19,7 @@ Hardware: Google Colab T4
 |------------|----------|---------------|---------------|----------------------|--------------------------------------------------------------------|
 | PPO        | No       | 266.01        | 1:35:29       | 501,747              | [Link](https://huggingface.co/kuds/rl-lunar-lander-ppo)            |
 | PPO        | Yes      | 223.38        | 2:07:30       | 501,721              | [Link](https://huggingface.co/kuds/rl-lunar-lander-continuous-ppo) |
-| SAC        | No       | 278.36        | 1:21:13       | 299,998              | [Link](https://huggingface.co/kuds/rl-lunar-lander-sac)            |
+| SAC        | No       | 288.74        | 1:21:13       | 750,000              | [Link](https://huggingface.co/kuds/rl-lunar-lander-sac)            |
 | DQN        | Yes      | 155.64        | 1:59:15       | 999,999              | [Link](https://huggingface.co/kuds/rl-lunar-lander-dqn)            |
 
 ## Training Notes
