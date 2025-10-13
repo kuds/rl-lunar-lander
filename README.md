@@ -15,12 +15,12 @@
 ## Results
 Hardware: Google Colab T4
 
-| Model Type | Discrete | Average Reward| Training Time | Total Training Steps | HuggingFace Repo                                                   |
-|------------|----------|---------------|---------------|----------------------|--------------------------------------------------------------------|
-| PPO        | No       | 266.01        | 1:35:29       | 501,747              | [Link](https://huggingface.co/kuds/rl-lunar-lander-ppo)            |
-| PPO        | Yes      | 223.38        | 2:07:30       | 501,721              | [Link](https://huggingface.co/kuds/rl-lunar-lander-continuous-ppo) |
-| SAC        | No       | 288.74        | 1:21:13       | 750,000              | [Link](https://huggingface.co/kuds/rl-lunar-lander-sac)            |
-| DQN        | Yes      | 155.64        | 1:59:15       | 999,999              | [Link](https://huggingface.co/kuds/rl-lunar-lander-dqn)            |
+| Model Type | Discrete | Average Reward| Training Time | Total Training Steps | HuggingFace Repo                                                |
+|------------|----------|---------------|---------------|----------------------|-----------------------------------------------------------------|
+| PPO        | No       | 266.01        | 1:35:29       | 501,747              | [Link](https://huggingface.co/kuds/lunar-lander-ppo)            |
+| PPO        | Yes      | 223.38        | 2:07:30       | 501,721              | [Link](https://huggingface.co/kuds/lunar-lander-continuous-ppo) |
+| SAC        | No       | 288.74        | 1:21:13       | 750,000              | [Link](https://huggingface.co/kuds/lunar-lander-sac)            |
+| DQN        | Yes      | 218.56        | 1:59:15       | 750,000              | [Link](https://huggingface.co/kuds/lunar-lander-dqn)            |
 
 ## Training Notes
 - Set `ent_coef` for PPO as it encourages exploration of other actions. Stable Baselines3 defaults the value to 0.0. [More Information](https://www.youtube.com/watch?v=1ppslywmIPs)
